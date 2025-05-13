@@ -1,0 +1,6 @@
+{
+	"name": "jest-roblox",
+	"scripts": {
+		"release": "pnpm publish --recursive --tag latest"
+	}
+}

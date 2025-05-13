@@ -1,0 +1,17 @@
+{
+	"name": "@rbxts-js/jest-snapshot-serializer-raw",
+	"version": "3.13.2-ts.1",
+	"repository": "rbxts-js/jest-roblox",
+	"license": "MIT",
+	"main": "src/init.lua",
+	"types": "src/index.d.ts",
+	"files": [
+		"src",
+		"default.project.json",
+		"!.robloxrc",
+		"!**/__tests__"
+	],
+	"dependencies": {
+		"@rbxts-js/luau-polyfill": "1.2.3-ts.1"
+	}
+}
