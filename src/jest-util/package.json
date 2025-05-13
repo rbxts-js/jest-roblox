@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts-js/jest-util",
-	"version": "3.13.2-ts.2",
+	"version": "3.13.2-ts.3",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rbxts-js/jest-roblox.git"
@@ -19,6 +19,7 @@
 		"@rbxts-js/jest-types": "workspace:^",
 		"@rbxts-js/luau-polyfill": "1.2.3-ts.1",
 		"@rbxts-js/luau-regexp": "0.2.2-ts.1",
+		"@rbxts-js/picomatch-lua": "0.4.0-ts.1",
 		"@rbxts-js/roblox-lua-promise": "3.5.0-ts.2",
 		"@rbxts-js/roblox-shared": "workspace:^"
 	}

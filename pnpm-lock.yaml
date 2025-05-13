@@ -616,6 +616,9 @@ importers:
       '@rbxts-js/luau-regexp':
         specifier: 0.2.2-ts.1
         version: 0.2.2-ts.1
+      '@rbxts-js/picomatch-lua':
+        specifier: 0.4.0-ts.1
+        version: 0.4.0-ts.1
       '@rbxts-js/roblox-lua-promise':
         specifier: 3.5.0-ts.2
         version: 3.5.0-ts.2
@@ -730,6 +733,9 @@ packages:
   '@rbxts-js/number@1.2.3-ts.1':
     resolution: {integrity: sha512-tPdt2s7fEBSxImVFBUvuSMtBKIvaZUCtlOjBl58Y0+GKB15VPXFIRW/5biVruXPnv9d4sDE3mh986ZxxN4UQ5w==}
 
+  '@rbxts-js/picomatch-lua@0.4.0-ts.1':
+    resolution: {integrity: sha512-QqALRJ5FPxQTiJgkpElHtxnQOKgtAXlTLxM4vSt3m6Zw7mGQaHyOUSXfLX+A2TZ6jTPFQVmxH+Gax2cRjBZgAw==}
+
   '@rbxts-js/react-is@17.1.20-ts.1':
     resolution: {integrity: sha512-namanMj2t78U74CuBwn3qQ0cZCnMa8mvu6NJt5KFBYal0/wcxuqHTBMgkv04xEi5Dr0+uliFohkjs5mR8THU8Q==}
 
@@ -790,6 +796,12 @@ snapshots:
   '@rbxts-js/math@1.2.3-ts.1': {}
 
   '@rbxts-js/number@1.2.3-ts.1': {}
+
+  '@rbxts-js/picomatch-lua@0.4.0-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/luau-regexp': 0.2.2-ts.1
+      '@rbxts-js/roblox-lua-promise': 3.5.0-ts.2
 
   '@rbxts-js/react-is@17.1.20-ts.1':
     dependencies:
