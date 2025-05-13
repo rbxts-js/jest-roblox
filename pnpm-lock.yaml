@@ -74,8 +74,8 @@ importers:
   src/jest-circus:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/expect':
         specifier: workspace:^
         version: link:../expect
@@ -128,8 +128,8 @@ importers:
   src/jest-config:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-environment-luau':
         specifier: workspace:^
         version: link:../jest-environment-luau
@@ -161,8 +161,8 @@ importers:
   src/jest-console:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-each':
         specifier: workspace:^
         version: link:../jest-each
@@ -188,8 +188,8 @@ importers:
   src/jest-core:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/emittery':
         specifier: workspace:^
         version: link:../emittery
@@ -242,8 +242,8 @@ importers:
   src/jest-diff:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/diff-sequences':
         specifier: workspace:^
         version: link:../diff-sequences
@@ -263,8 +263,8 @@ importers:
   src/jest-each:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-get-type':
         specifier: workspace:^
         version: link:../jest-get-type
@@ -368,8 +368,8 @@ importers:
   src/jest-matcher-utils:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-diff':
         specifier: workspace:^
         version: link:../jest-diff
@@ -389,8 +389,8 @@ importers:
   src/jest-message-util:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-types':
         specifier: workspace:^
         version: link:../jest-types
@@ -440,8 +440,8 @@ importers:
   src/jest-reporters:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-console':
         specifier: workspace:^
         version: link:../jest-console
@@ -479,8 +479,8 @@ importers:
   src/jest-runner:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/emittery':
         specifier: workspace:^
         version: link:../emittery
@@ -551,8 +551,8 @@ importers:
   src/jest-snapshot:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-diff':
         specifier: workspace:^
         version: link:../jest-diff
@@ -605,8 +605,8 @@ importers:
   src/jest-util:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-types':
         specifier: workspace:^
         version: link:../jest-types
@@ -626,8 +626,8 @@ importers:
   src/jest-validate:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/luau-polyfill':
         specifier: 1.2.3-ts.1
         version: 1.2.3-ts.1
@@ -641,8 +641,8 @@ importers:
   src/pretty-format:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-get-type':
         specifier: workspace:^
         version: link:../jest-get-type
@@ -674,8 +674,8 @@ importers:
   src/test-utils:
     dependencies:
       '@rbxts-js/chalk-lua':
-        specifier: 0.2.2-ts.1
-        version: 0.2.2-ts.1
+        specifier: 0.2.2-ts.2
+        version: 0.2.2-ts.2
       '@rbxts-js/jest-environment-luau':
         specifier: workspace:^
         version: link:../jest-environment-luau
@@ -703,8 +703,8 @@ packages:
   '@rbxts-js/boolean@1.2.3-ts.1':
     resolution: {integrity: sha512-IlYFG9uatXQKXOLR1mdptVeEcxudwBCierO+Vu6VZRRaI+/+JDxUClm+QFZyce/kitwnDTmtNvhqVAUtFvCU0Q==}
 
-  '@rbxts-js/chalk-lua@0.2.2-ts.1':
-    resolution: {integrity: sha512-UfdFid3wGHkbrTAPEB7EOBDMYX+6pBMrlwSwonwCHSRd/1aG076CA+jxB8wHXZyEPMWL3e/nUSRzfKGdbyLwuA==}
+  '@rbxts-js/chalk-lua@0.2.2-ts.2':
+    resolution: {integrity: sha512-UCMkX/ufijrQyEt20SJ/Qxe4vLMEwimVYty2l3kkly0InTC0SRFPRUIarZWwyff8z6LoHB479UUX6wfACm/CXA==}
 
   '@rbxts-js/collections@1.2.3-ts.1':
     resolution: {integrity: sha512-RYT73QyEdsV+DCQMtyzT2bZ1P12j2b+JSHVdb1x6xrDq/KdVEkk/QAzW+o22vPrLXbHa6/jA5bmVlgVcOOrIjA==}
@@ -757,7 +757,7 @@ snapshots:
     dependencies:
       '@rbxts-js/collections': 1.2.3-ts.1
 
-  '@rbxts-js/chalk-lua@0.2.2-ts.1': {}
+  '@rbxts-js/chalk-lua@0.2.2-ts.2': {}
 
   '@rbxts-js/collections@1.2.3-ts.1':
     dependencies:
