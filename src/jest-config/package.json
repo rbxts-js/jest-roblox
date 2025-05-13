@@ -1,0 +1,26 @@
+{
+	"name": "@rbxts-js/jest-config",
+	"version": "3.13.2-ts.1",
+	"repository": "rbxts-js/jest-roblox",
+	"license": "MIT",
+	"main": "src/init.lua",
+	"types": "src/index.d.ts",
+	"files": [
+		"src",
+		"default.project.json",
+		"!.robloxrc",
+		"!**/__tests__"
+	],
+	"dependencies": {
+		"@rbxts-js/chalk-lua": "0.2.2-ts.1",
+		"@rbxts-js/jest-environment-luau": "workspace:^",
+		"@rbxts-js/jest-get-type": "workspace:^",
+		"@rbxts-js/jest-types": "workspace:^",
+		"@rbxts-js/jest-util": "workspace:^",
+		"@rbxts-js/jest-validate": "workspace:^",
+		"@rbxts-js/luau-polyfill": "1.2.3-ts.1",
+		"@rbxts-js/luau-regexp": "0.2.2-ts.1",
+		"@rbxts-js/roblox-lua-promise": "3.5.0-ts.2",
+		"@rbxts-js/roblox-shared": "workspace:^"
+	}
+}

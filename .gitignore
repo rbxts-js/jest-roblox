@@ -2,6 +2,7 @@
 rotriever.lock
 Packages/*
 !Packages/.robloxrc
+node_modules
 
 # Test places and build artifacts
 /*.rbxlx

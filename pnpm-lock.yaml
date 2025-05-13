@@ -1,0 +1,816 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  src/diff-sequences:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/emittery:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+
+  src/expect:
+    dependencies:
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-matcher-utils':
+        specifier: workspace:^
+        version: link:../jest-matcher-utils
+      '@rbxts-js/jest-message-util':
+        specifier: workspace:*
+        version: link:../jest-message-util
+      '@rbxts-js/jest-snapshot':
+        specifier: workspace:^
+        version: link:../jest-snapshot
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest:
+    dependencies:
+      '@rbxts-js/jest-core':
+        specifier: workspace:*
+        version: link:../jest-core
+
+  src/jest-benchmark:
+    dependencies:
+      '@rbxts-js/jest-globals':
+        specifier: workspace:^
+        version: link:../jest-globals
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-circus:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/expect':
+        specifier: workspace:^
+        version: link:../expect
+      '@rbxts-js/jest-each':
+        specifier: workspace:^
+        version: link:../jest-each
+      '@rbxts-js/jest-environment':
+        specifier: workspace:^
+        version: link:../jest-environment
+      '@rbxts-js/jest-matcher-utils':
+        specifier: workspace:^
+        version: link:../jest-matcher-utils
+      '@rbxts-js/jest-message-util':
+        specifier: workspace:^
+        version: link:../jest-message-util
+      '@rbxts-js/jest-runtime':
+        specifier: workspace:^
+        version: link:../jest-runtime
+      '@rbxts-js/jest-snapshot':
+        specifier: workspace:^
+        version: link:../jest-snapshot
+      '@rbxts-js/jest-test-result':
+        specifier: workspace:^
+        version: link:../jest-test-result
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+      '@rbxts-js/throat':
+        specifier: workspace:^
+        version: link:../throat
+
+  src/jest-config:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-environment-luau':
+        specifier: workspace:^
+        version: link:../jest-environment-luau
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/jest-validate':
+        specifier: workspace:^
+        version: link:../jest-validate
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest-console:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-each':
+        specifier: workspace:^
+        version: link:../jest-each
+      '@rbxts-js/jest-message-util':
+        specifier: workspace:^
+        version: link:../jest-message-util
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest-core:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/emittery':
+        specifier: workspace:^
+        version: link:../emittery
+      '@rbxts-js/jest-config':
+        specifier: workspace:^
+        version: link:../jest-config
+      '@rbxts-js/jest-console':
+        specifier: workspace:^
+        version: link:../jest-console
+      '@rbxts-js/jest-message-util':
+        specifier: workspace:^
+        version: link:../jest-message-util
+      '@rbxts-js/jest-reporters':
+        specifier: workspace:^
+        version: link:../jest-reporters
+      '@rbxts-js/jest-runner':
+        specifier: workspace:^
+        version: link:../jest-runner
+      '@rbxts-js/jest-runtime':
+        specifier: workspace:^
+        version: link:../jest-runtime
+      '@rbxts-js/jest-snapshot':
+        specifier: workspace:^
+        version: link:../jest-snapshot
+      '@rbxts-js/jest-test-result':
+        specifier: workspace:^
+        version: link:../jest-test-result
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest-diff:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/diff-sequences':
+        specifier: workspace:^
+        version: link:../diff-sequences
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+
+  src/jest-each:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+
+  src/jest-environment:
+    dependencies:
+      '@rbxts-js/jest-fake-timers':
+        specifier: workspace:^
+        version: link:../jest-fake-timers
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/jest-mock-genv':
+        specifier: workspace:^
+        version: link:../jest-mock-genv
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-environment-luau:
+    dependencies:
+      '@rbxts-js/jest-environment':
+        specifier: workspace:^
+        version: link:../jest-environment
+      '@rbxts-js/jest-fake-timers':
+        specifier: workspace:^
+        version: link:../jest-fake-timers
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+
+  src/jest-fake-timers:
+    dependencies:
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-get-type:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+
+  src/jest-globals:
+    dependencies:
+      '@rbxts-js/expect':
+        specifier: workspace:^
+        version: link:../expect
+      '@rbxts-js/jest-environment':
+        specifier: workspace:^
+        version: link:../jest-environment
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-jasmine2:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-matcher-utils:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-diff':
+        specifier: workspace:^
+        version: link:../jest-diff
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+
+  src/jest-message-util:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest-mock:
+    dependencies:
+      '@rbxts-js/jest-mock-genv':
+        specifier: workspace:^
+        version: link:../jest-mock-genv
+      '@rbxts-js/jest-mock-rbx':
+        specifier: workspace:^
+        version: link:../jest-mock-rbx
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-mock-genv:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-mock-rbx:
+    dependencies:
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-reporters:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-console':
+        specifier: workspace:^
+        version: link:../jest-console
+      '@rbxts-js/jest-message-util':
+        specifier: workspace:^
+        version: link:../jest-message-util
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/jest-test-result':
+        specifier: workspace:^
+        version: link:../jest-test-result
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/path':
+        specifier: workspace:^
+        version: link:../path
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+      '@rbxts-js/test-utils':
+        specifier: workspace:^
+        version: link:../test-utils
+
+  src/jest-runner:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/emittery':
+        specifier: workspace:^
+        version: link:../emittery
+      '@rbxts-js/jest-circus':
+        specifier: workspace:^
+        version: link:../jest-circus
+      '@rbxts-js/jest-console':
+        specifier: workspace:^
+        version: link:../jest-console
+      '@rbxts-js/jest-environment':
+        specifier: workspace:^
+        version: link:../jest-environment
+      '@rbxts-js/jest-message-util':
+        specifier: workspace:^
+        version: link:../jest-message-util
+      '@rbxts-js/jest-runtime':
+        specifier: workspace:^
+        version: link:../jest-runtime
+      '@rbxts-js/jest-test-result':
+        specifier: workspace:^
+        version: link:../jest-test-result
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/jest-util':
+        specifier: workspace:^
+        version: link:../jest-util
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+      '@rbxts-js/throat':
+        specifier: workspace:^
+        version: link:../throat
+
+  src/jest-runtime:
+    dependencies:
+      '@rbxts-js/expect':
+        specifier: workspace:^
+        version: link:../expect
+      '@rbxts-js/jest-fake-timers':
+        specifier: workspace:^
+        version: link:../jest-fake-timers
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/jest-mock-genv':
+        specifier: workspace:^
+        version: link:../jest-mock-genv
+      '@rbxts-js/jest-snapshot':
+        specifier: workspace:^
+        version: link:../jest-snapshot
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+
+  src/jest-snapshot:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-diff':
+        specifier: workspace:^
+        version: link:../jest-diff
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-matcher-utils':
+        specifier: workspace:^
+        version: link:../jest-matcher-utils
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest-snapshot-serializer-raw:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-test-result:
+    dependencies:
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/jest-types:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+
+  src/jest-util:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/jest-validate:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/path:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/pretty-format:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/luau-regexp':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/react-is':
+        specifier: 17.1.20-ts.1
+        version: 17.1.20-ts.1
+      '@rbxts-js/roblox-shared':
+        specifier: workspace:^
+        version: link:../roblox-shared
+
+  src/roblox-shared:
+    dependencies:
+      '@rbxts-js/jest-get-type':
+        specifier: workspace:^
+        version: link:../jest-get-type
+      '@rbxts-js/jest-mock':
+        specifier: workspace:^
+        version: link:../jest-mock
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+
+  src/test-utils:
+    dependencies:
+      '@rbxts-js/chalk-lua':
+        specifier: 0.2.2-ts.1
+        version: 0.2.2-ts.1
+      '@rbxts-js/jest-environment-luau':
+        specifier: workspace:^
+        version: link:../jest-environment-luau
+      '@rbxts-js/jest-types':
+        specifier: workspace:^
+        version: link:../jest-types
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/pretty-format':
+        specifier: workspace:^
+        version: link:../pretty-format
+
+  src/throat:
+    dependencies:
+      '@rbxts-js/luau-polyfill':
+        specifier: 1.2.3-ts.1
+        version: 1.2.3-ts.1
+      '@rbxts-js/roblox-lua-promise':
+        specifier: 3.5.0-ts.2
+        version: 3.5.0-ts.2
+
+packages:
+
+  '@rbxts-js/boolean@1.2.3-ts.1':
+    resolution: {integrity: sha512-IlYFG9uatXQKXOLR1mdptVeEcxudwBCierO+Vu6VZRRaI+/+JDxUClm+QFZyce/kitwnDTmtNvhqVAUtFvCU0Q==}
+
+  '@rbxts-js/chalk-lua@0.2.2-ts.1':
+    resolution: {integrity: sha512-UfdFid3wGHkbrTAPEB7EOBDMYX+6pBMrlwSwonwCHSRd/1aG076CA+jxB8wHXZyEPMWL3e/nUSRzfKGdbyLwuA==}
+
+  '@rbxts-js/collections@1.2.3-ts.1':
+    resolution: {integrity: sha512-RYT73QyEdsV+DCQMtyzT2bZ1P12j2b+JSHVdb1x6xrDq/KdVEkk/QAzW+o22vPrLXbHa6/jA5bmVlgVcOOrIjA==}
+
+  '@rbxts-js/console@1.2.3-ts.1':
+    resolution: {integrity: sha512-qacyJE7bYf4n9448F7mn9e8Y5qljZb7QkSmsmnbQT2HA9Mecvg3gqc9RwCIdVkBV6o1AGVAHbatNQ3a39zPjaw==}
+
+  '@rbxts-js/es7-types@1.2.3-ts.1':
+    resolution: {integrity: sha512-Z7NitBQp6tyzsr5eKlSX54rmopKXpzGu33lYikjF37llrnGFBpnRcZgCJwHKYciloRmjUtnR/UohUNwbWyG9Zg==}
+
+  '@rbxts-js/instance-of@1.2.3-ts.1':
+    resolution: {integrity: sha512-3fKvDPvxHuEZALNBP2XdbXfzjEfbgsXAheCm1Jf5kC2r+HgszW+yqg4zY6TjW0pcsJM2JjH+fM52oomSNu3LLQ==}
+
+  '@rbxts-js/luau-polyfill@1.2.3-ts.1':
+    resolution: {integrity: sha512-2asgvWrOhf311rNgEM/fxMO3+xOVI63Cz1K1PobyZVtDdd87ZJ6RGiZSFl1EAeU77SZc8280toJDVs9YSwxWnA==}
+
+  '@rbxts-js/luau-regexp@0.2.2-ts.1':
+    resolution: {integrity: sha512-tsgz3LS0l5GE2vOb+A+bJj2mIwAQTKr43d2Ua7k142R4WKwG9WocOLHzwLKosqwoqLjKcmrya2TFGSFzmDZz5A==}
+
+  '@rbxts-js/math@1.2.3-ts.1':
+    resolution: {integrity: sha512-mF7IMJJyxYE02cRNWJ1wsq4pPaAEXKX+CbGlmI0G3QBgWVHj+Oi02IR6pssyUyE6Y2BKvgvP3dcJuTO51OX25A==}
+
+  '@rbxts-js/number@1.2.3-ts.1':
+    resolution: {integrity: sha512-tPdt2s7fEBSxImVFBUvuSMtBKIvaZUCtlOjBl58Y0+GKB15VPXFIRW/5biVruXPnv9d4sDE3mh986ZxxN4UQ5w==}
+
+  '@rbxts-js/react-is@17.1.20-ts.1':
+    resolution: {integrity: sha512-namanMj2t78U74CuBwn3qQ0cZCnMa8mvu6NJt5KFBYal0/wcxuqHTBMgkv04xEi5Dr0+uliFohkjs5mR8THU8Q==}
+
+  '@rbxts-js/roblox-lua-promise@3.5.0-ts.2':
+    resolution: {integrity: sha512-H8fxKVJkRnM60yTZ/riO4X43GZD/MViFm+ftCzzAALkAhE4vSaBDNv9E7IUjZZoWi21bG6vZ8mGIiYfavaljvw==}
+
+  '@rbxts-js/safe-flags@17.1.20-ts.1':
+    resolution: {integrity: sha512-k+16jmCP63LT8sNfhLoytUrp3UB+CGHH7s54BFUAHte+zCANK3wfAKXbpT36NqnUfRqgKDM8grO4lWp6awuacQ==}
+
+  '@rbxts-js/shared@17.1.20-ts.1':
+    resolution: {integrity: sha512-/3K1BnWV519+any6JMWniIDx1rtq20H6RVgJStSCj4XofrM63kzju0EzRQg1af4lnXCfZNZBusRW8IGQ14xuZQ==}
+
+  '@rbxts-js/string@1.2.3-ts.1':
+    resolution: {integrity: sha512-Je/WKgZbXF/sAHEsQPuns5n4rWzux327zjr0KRf9Gy62ieUzl2FRZZHjVYce3xdMtHif2JstIf/J3p513TUtRg==}
+
+  '@rbxts-js/symbol-luau@1.0.0-ts.1':
+    resolution: {integrity: sha512-TQS/ImDCK5KPGvbmyScH5EZS0ELSCDvZEFR3W+ItPlsLl+bDRSI/0uaKtJ7rbwXgdGwBDKM1QXFPjqe+KOphIA==}
+
+  '@rbxts-js/timers@1.2.3-ts.1':
+    resolution: {integrity: sha512-HKP4ymFX3QLWbR/2Gy4LXwvkhjC9OzbwZ5bNunxu+M8Ocbi1cjRduiZK/y5ogLr9cNIfSoxs6e1DQ3soc8/hwA==}
+
+snapshots:
+
+  '@rbxts-js/boolean@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/collections': 1.2.3-ts.1
+
+  '@rbxts-js/chalk-lua@0.2.2-ts.1': {}
+
+  '@rbxts-js/collections@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/es7-types': 1.2.3-ts.1
+      '@rbxts-js/instance-of': 1.2.3-ts.1
+
+  '@rbxts-js/console@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/collections': 1.2.3-ts.1
+
+  '@rbxts-js/es7-types@1.2.3-ts.1': {}
+
+  '@rbxts-js/instance-of@1.2.3-ts.1': {}
+
+  '@rbxts-js/luau-polyfill@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/boolean': 1.2.3-ts.1
+      '@rbxts-js/collections': 1.2.3-ts.1
+      '@rbxts-js/console': 1.2.3-ts.1
+      '@rbxts-js/es7-types': 1.2.3-ts.1
+      '@rbxts-js/instance-of': 1.2.3-ts.1
+      '@rbxts-js/math': 1.2.3-ts.1
+      '@rbxts-js/number': 1.2.3-ts.1
+      '@rbxts-js/string': 1.2.3-ts.1
+      '@rbxts-js/symbol-luau': 1.0.0-ts.1
+      '@rbxts-js/timers': 1.2.3-ts.1
+
+  '@rbxts-js/luau-regexp@0.2.2-ts.1': {}
+
+  '@rbxts-js/math@1.2.3-ts.1': {}
+
+  '@rbxts-js/number@1.2.3-ts.1': {}
+
+  '@rbxts-js/react-is@17.1.20-ts.1':
+    dependencies:
+      '@rbxts-js/shared': 17.1.20-ts.1
+
+  '@rbxts-js/roblox-lua-promise@3.5.0-ts.2': {}
+
+  '@rbxts-js/safe-flags@17.1.20-ts.1': {}
+
+  '@rbxts-js/shared@17.1.20-ts.1':
+    dependencies:
+      '@rbxts-js/luau-polyfill': 1.2.3-ts.1
+      '@rbxts-js/safe-flags': 17.1.20-ts.1
+
+  '@rbxts-js/string@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/es7-types': 1.2.3-ts.1
+      '@rbxts-js/number': 1.2.3-ts.1
+
+  '@rbxts-js/symbol-luau@1.0.0-ts.1': {}
+
+  '@rbxts-js/timers@1.2.3-ts.1':
+    dependencies:
+      '@rbxts-js/collections': 1.2.3-ts.1
