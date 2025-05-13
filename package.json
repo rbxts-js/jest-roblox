@@ -1,6 +1,10 @@
 {
 	"name": "jest-roblox",
+	"version": "0.0.0",
 	"scripts": {
 		"release": "pnpm publish --recursive --tag latest"
-	}
+	},
+	"workspaces": [
+		"src/*"
+	]
 }
