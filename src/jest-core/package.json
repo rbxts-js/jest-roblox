@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts-js/jest-core",
-	"version": "3.13.2-ts.3",
+	"version": "3.13.3-ts.1",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rbxts-js/jest-roblox.git"
